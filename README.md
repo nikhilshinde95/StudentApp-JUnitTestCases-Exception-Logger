@@ -22,3 +22,5 @@ Technologies Used :
       3] Postgres
       
       4] Lombok
+
+      5] Devtools

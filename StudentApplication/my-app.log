@@ -1,0 +1,202 @@
+2024-06-20T12:07:17.867+05:30  INFO 13804 --- [main] com.org.StudentApplication               : Starting StudentApplication using Java 21.0.3 with PID 13804 (C:\Users\nikhil.shinde\Downloads\StudentApplication-main\StudentApplication\build\classes\java\main started by nikhil.shinde in C:\Users\nikhil.shinde\Downloads\StudentApplication-main\StudentApplication)
+2024-06-20T12:07:17.875+05:30  INFO 13804 --- [main] com.org.StudentApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T12:07:20.372+05:30  INFO 13804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-20T12:07:20.610+05:30  INFO 13804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interface.
+2024-06-20T12:07:22.991+05:30  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-06-20T12:07:23.049+05:30  INFO 13804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T12:07:23.063+05:30  INFO 13804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-20T12:07:23.516+05:30  INFO 13804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T12:07:23.524+05:30  INFO 13804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5396 ms
+2024-06-20T12:07:24.305+05:30  INFO 13804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-20T12:07:25.016+05:30  INFO 13804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-20T12:07:25.143+05:30  INFO 13804 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-20T12:07:26.226+05:30  INFO 13804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-20T12:07:26.353+05:30  INFO 13804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-20T12:07:27.060+05:30  INFO 13804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76e6c070
+2024-06-20T12:07:27.065+05:30  INFO 13804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-20T12:07:27.201+05:30  WARN 13804 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-20T12:07:30.220+05:30  INFO 13804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-20T12:07:30.987+05:30  INFO 13804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20T12:07:32.719+05:30  WARN 13804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-20T12:07:33.077+05:30 DEBUG 13804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-06-20T12:07:33.576+05:30 DEBUG 13804 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-20T12:07:33.775+05:30 DEBUG 13804 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-20T12:07:33.866+05:30 DEBUG 13804 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-20T12:07:34.193+05:30  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-06-20T12:07:34.215+05:30  INFO 13804 --- [main] com.org.StudentApplication               : Started StudentApplication in 17.685 seconds (process running for 18.708)
+2024-06-20T12:07:49.138+05:30  INFO 13804 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-20T12:07:49.142+05:30  INFO 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-20T12:07:49.144+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-20T12:07:49.146+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-20T12:07:49.148+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-20T12:07:49.155+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53f94afe
+2024-06-20T12:07:49.193+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5cf1bbd3
+2024-06-20T12:07:49.197+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-20T12:07:49.198+05:30  INFO 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 55 ms
+2024-06-20T12:07:49.245+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:07:49.311+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:07:49.432+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:07:49.434+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:07:49.969+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.service.StudentServiceImpl       : 4 Students Data is Fetched.
+2024-06-20T12:07:50.008+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:07:50.012+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@38e069c0, com.org.entities.Student@1cf6bd36, com.org.entities.Student@756e (truncated)...]
+2024-06-20T12:07:50.174+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:07:56.326+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/students/1", parameters={}
+2024-06-20T12:07:56.338+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getStudent(Long)
+2024-06-20T12:07:56.366+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.controller.MyController          : Fetching Student With Id 1
+2024-06-20T12:07:56.372+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.service.StudentServiceImpl       : Fetching Student Details With ID 1
+2024-06-20T12:07:56.522+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.service.StudentServiceImpl       : Student With Id Optional[com.org.entities.Student@122bc80e] fetched Successfully..
+2024-06-20T12:07:56.533+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:07:56.540+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.org.entities.Student@122bc80e]
+2024-06-20T12:07:56.543+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:06.715+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/students", parameters={}
+2024-06-20T12:08:06.718+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#addStudent(Student)
+2024-06-20T12:08:06.836+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.org.entities.Student@4b425b9a]
+2024-06-20T12:08:06.845+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.controller.MyController          : Adding a new student: com.org.entities.Student@4b425b9a
+2024-06-20T12:08:06.849+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.service.StudentServiceImpl       : Adding New Student to Database
+2024-06-20T12:08:06.986+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.service.StudentServiceImpl       : New Student com.org.entities.Student@4b425b9a is Added Successfully.
+2024-06-20T12:08:06.988+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:06.990+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.org.entities.Student@60bc7fa5]
+2024-06-20T12:08:06.992+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:12.108+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:08:12.109+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:08:12.111+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:08:12.112+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:08:12.121+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.service.StudentServiceImpl       : 5 Students Data is Fetched.
+2024-06-20T12:08:12.122+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:12.123+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@4af595bd, com.org.entities.Student@764aa391, com.org.entities.Student@5adc (truncated)...]
+2024-06-20T12:08:12.125+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:24.830+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/students", parameters={}
+2024-06-20T12:08:24.859+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#updateStudent(Student)
+2024-06-20T12:08:24.864+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.org.entities.Student@1275ff6b]
+2024-06-20T12:08:24.888+05:30  INFO 13804 --- [http-nio-8081-exec-6] com.org.controller.MyController          : Updating student: com.org.entities.Student@1275ff6b
+2024-06-20T12:08:24.889+05:30  INFO 13804 --- [http-nio-8081-exec-6] com.org.service.StudentServiceImpl       : Updating Existing Student Data..
+2024-06-20T12:08:24.923+05:30  INFO 13804 --- [http-nio-8081-exec-6] com.org.service.StudentServiceImpl       : Student Data is Updated Successfully...
+2024-06-20T12:08:24.926+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:24.927+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.org.entities.Student@5d8f196e]
+2024-06-20T12:08:24.930+05:30 DEBUG 13804 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:29.631+05:30 DEBUG 13804 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:08:29.632+05:30 DEBUG 13804 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:08:29.635+05:30  INFO 13804 --- [http-nio-8081-exec-7] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:08:29.636+05:30  INFO 13804 --- [http-nio-8081-exec-7] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:08:29.646+05:30  INFO 13804 --- [http-nio-8081-exec-7] com.org.service.StudentServiceImpl       : 5 Students Data is Fetched.
+2024-06-20T12:08:29.648+05:30 DEBUG 13804 --- [http-nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:29.658+05:30 DEBUG 13804 --- [http-nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@b1de37b, com.org.entities.Student@41729048, com.org.entities.Student@538b5 (truncated)...]
+2024-06-20T12:08:29.661+05:30 DEBUG 13804 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:39.502+05:30 DEBUG 13804 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : DELETE "/students/5", parameters={}
+2024-06-20T12:08:39.505+05:30 DEBUG 13804 --- [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#deleteStudent(Long)
+2024-06-20T12:08:39.507+05:30  INFO 13804 --- [http-nio-8081-exec-8] com.org.controller.MyController          : Deleting student with id: 5
+2024-06-20T12:08:39.508+05:30  INFO 13804 --- [http-nio-8081-exec-8] com.org.service.StudentServiceImpl       : Deleting Student With Id 5 
+2024-06-20T12:08:39.537+05:30  INFO 13804 --- [http-nio-8081-exec-8] com.org.service.StudentServiceImpl       : Student With Id 5 is Deleted Successfully...
+2024-06-20T12:08:39.538+05:30  INFO 13804 --- [http-nio-8081-exec-8] com.org.controller.MyController          : Student with id 5 deleted successfully
+2024-06-20T12:08:39.543+05:30 DEBUG 13804 --- [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-06-20T12:08:39.545+05:30 DEBUG 13804 --- [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Student is deleted Successfully."]
+2024-06-20T12:08:39.549+05:30 DEBUG 13804 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:08:44.691+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/students/5", parameters={}
+2024-06-20T12:08:44.693+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getStudent(Long)
+2024-06-20T12:08:44.697+05:30  INFO 13804 --- [http-nio-8081-exec-9] com.org.controller.MyController          : Fetching Student With Id 5
+2024-06-20T12:08:44.697+05:30  INFO 13804 --- [http-nio-8081-exec-9] com.org.service.StudentServiceImpl       : Fetching Student Details With ID 5
+2024-06-20T12:08:44.704+05:30  INFO 13804 --- [http-nio-8081-exec-9] com.org.service.StudentServiceImpl       : Student With Id Optional.empty fetched Successfully..
+2024-06-20T12:08:44.711+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.util.NoSuchElementException: No value present
+2024-06-20T12:08:44.713+05:30 ERROR 13804 --- [http-nio-8081-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143) ~[na:na]
+	at com.org.service.StudentServiceImpl.getStudent(StudentServiceImpl.java:38) ~[main/:na]
+	at com.org.controller.MyController.getStudent(MyController.java:42) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-06-20T12:08:44.774+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-20T12:08:44.789+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-20T12:08:44.810+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:44.824+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jun 20 12:08:44 IST 2024, status=500, error=Internal Server Error, path=/students/5}]
+2024-06-20T12:08:44.859+05:30 DEBUG 13804 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2024-06-20T12:08:47.050+05:30 DEBUG 13804 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:08:47.052+05:30 DEBUG 13804 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:08:47.055+05:30  INFO 13804 --- [http-nio-8081-exec-1] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:08:47.060+05:30  INFO 13804 --- [http-nio-8081-exec-1] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:08:47.111+05:30  INFO 13804 --- [http-nio-8081-exec-1] com.org.service.StudentServiceImpl       : 4 Students Data is Fetched.
+2024-06-20T12:08:47.128+05:30 DEBUG 13804 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:08:47.144+05:30 DEBUG 13804 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@68589bec, com.org.entities.Student@3f5b1118, com.org.entities.Student@67a3 (truncated)...]
+2024-06-20T12:08:47.175+05:30 DEBUG 13804 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:09:02.195+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/students", parameters={}
+2024-06-20T12:09:02.253+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#addStudent(Student)
+2024-06-20T12:09:02.269+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.org.entities.Student@37063677]
+2024-06-20T12:09:02.278+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.controller.MyController          : Adding a new student: com.org.entities.Student@37063677
+2024-06-20T12:09:02.298+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.service.StudentServiceImpl       : Adding New Student to Database
+2024-06-20T12:09:02.346+05:30  INFO 13804 --- [http-nio-8081-exec-3] com.org.service.StudentServiceImpl       : New Student com.org.entities.Student@37063677 is Added Successfully.
+2024-06-20T12:09:02.348+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:09:02.353+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.org.entities.Student@649710da]
+2024-06-20T12:09:02.355+05:30 DEBUG 13804 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:09:06.676+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:09:06.678+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:09:06.679+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:09:06.680+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:09:06.689+05:30  INFO 13804 --- [http-nio-8081-exec-2] com.org.service.StudentServiceImpl       : 4 Students Data is Fetched.
+2024-06-20T12:09:06.690+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:09:06.691+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@120bdc7e, com.org.entities.Student@6825af67, com.org.entities.Student@3278 (truncated)...]
+2024-06-20T12:09:06.695+05:30 DEBUG 13804 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:09:23.844+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/students", parameters={}
+2024-06-20T12:09:23.847+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#updateStudent(Student)
+2024-06-20T12:09:23.856+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.org.entities.Student@dc08159]
+2024-06-20T12:09:23.861+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.controller.MyController          : Updating student: com.org.entities.Student@dc08159
+2024-06-20T12:09:23.869+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.service.StudentServiceImpl       : Updating Existing Student Data..
+2024-06-20T12:09:23.902+05:30  INFO 13804 --- [http-nio-8081-exec-4] com.org.service.StudentServiceImpl       : Student Data is Updated Successfully...
+2024-06-20T12:09:23.905+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:09:23.908+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.org.entities.Student@233bc127]
+2024-06-20T12:09:23.912+05:30 DEBUG 13804 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-20T12:09:28.427+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/students", parameters={}
+2024-06-20T12:09:28.428+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.MyController#getAllStudent()
+2024-06-20T12:09:28.430+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.controller.MyController          : Fetching All Students Data...
+2024-06-20T12:09:28.434+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.service.StudentServiceImpl       : Fetching All Students Data
+2024-06-20T12:09:28.440+05:30  INFO 13804 --- [http-nio-8081-exec-5] com.org.service.StudentServiceImpl       : 4 Students Data is Fetched.
+2024-06-20T12:09:28.441+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-20T12:09:28.442+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.org.entities.Student@2a6c7290, com.org.entities.Student@7a9f723e, com.org.entities.Student@1eaa (truncated)...]
+2024-06-20T12:09:28.445+05:30 DEBUG 13804 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

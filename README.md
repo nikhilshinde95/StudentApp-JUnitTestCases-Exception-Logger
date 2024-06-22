@@ -6,12 +6,14 @@ The project includes JUnit test cases for testing, logging for debugging, and ex
 Features :
 
       1] View a list of student.
+
+      2] View Student With ID.
       
-      2] Add new student to the database.
+      3] Add new student to the database.
       
-      3] Update existing student information.
+      4] Update existing student information.
       
-      4] Delete student from the database.
+      5] Delete student from the database.
 
 Technologies Used :
 
